@@ -1,7 +1,6 @@
 language: go
 go:
   - "1.10"
-  - master
 before_install:
   - go get -u github.com/golang/dep/cmd/dep
 install:
